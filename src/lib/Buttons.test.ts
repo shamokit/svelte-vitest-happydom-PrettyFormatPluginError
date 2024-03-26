@@ -1,8 +1,7 @@
-import { render, screen, cleanup } from '@testing-library/svelte';
-import { expect, test, describe, beforeEach } from 'vitest';
+import { render, screen } from '@testing-library/svelte';
+import { expect, test, describe } from 'vitest';
 import Buttons from './Buttons.svelte';
 
-beforeEach(cleanup);
 describe('Buttons.svelte', async () => {
 	test('two buttons', async () => {
 		render(Buttons, {
