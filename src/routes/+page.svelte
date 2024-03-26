@@ -2,4 +2,4 @@
 	import Buttons from '$lib/Buttons.svelte';
 </script>
 
-<Buttons name="name" newName="newName" count="{2}" />
+<Buttons name="name" count="{2}" />
