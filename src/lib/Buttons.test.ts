@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, cleanup } from '@testing-library/svelte';
+import { render, screen, cleanup } from '@testing-library/svelte';
 import { expect, test, describe, beforeEach } from 'vitest';
 import Buttons from './Buttons.svelte';
 
